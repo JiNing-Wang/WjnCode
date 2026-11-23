@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="144" height="144"
+     viewBox="22 22 100 100"
+     role="img" aria-labelledby="logo-title">
+  <title id="logo-title">WJN 标志</title>
+
+  <!-- 加粗四角框架 -->
+  <g fill="none"
+     stroke="#7DB857"
+     stroke-width="6"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M47 30H37a7 7 0 0 0-7 7v10"/>
+    <path d="M97 30h10a7 7 0 0 1 7 7v10"/>
+    <path d="M30 97v10a7 7 0 0 0 7 7h10"/>
+    <path d="M114 97v10a7 7 0 0 1-7 7H97"/>
+  </g>
+
+  <!-- 保持字母高度，收窄整体宽度 -->
+  <text x="72" y="71"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-size="48"
+        font-weight="900"
+        textLength="85"
+        lengthAdjust="spacingAndGlyphs"
+        fill="#7DB857">WJN</text>
+
+  <!-- 加粗底部横线 -->
+  <path d="M59 101h26"
+        fill="none"
+        stroke="#7DB857"
+        stroke-width="5"
+        stroke-linecap="round"/>
+</svg>

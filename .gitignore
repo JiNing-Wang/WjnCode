@@ -1,0 +1,13 @@
+# 系统生成文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 临时文件
+*.tmp
+
+# 安装包统一发布到 Releases，不提交进仓库
+*.exe
+*.msi
+*.zip
+*.7z
