@@ -18,6 +18,20 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 > **本仓库仅用于产品介绍与安装包发布，不包含源代码。** WjnCode 目前为闭源软件，新版本会发布在 [Releases](https://gitee.com/wang-jining/wjncode/releases)。
 
+## 界面预览
+
+**对话、工具调用与用量统计**
+
+![WjnCode 对话界面](assets/chat.png)
+
+**Git 源代码管理与左右对比**
+
+![WjnCode 源代码管理](assets/source-control.png)
+
+**内置 PowerShell 终端**
+
+![WjnCode 终端](assets/terminal.png)
+
 ## 下载
 
 | 系统                | 下载                                                    | 说明               |
