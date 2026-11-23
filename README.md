@@ -7,7 +7,9 @@
 <p align="center">为 Claude Code / Codex CLI 打造的 Windows 桌面工作台</p>
 
 <p align="center">
-  <a href="https://gitee.com/wang-jining/wjncode/releases"><strong>下载最新版本</strong></a>
+  <a href="https://gitee.com/wang-jining/wjncode/releases"><strong>Gitee 下载</strong></a>
+  ·
+  <a href="https://github.com/JiNing-Wang/WjnCode/releases">GitHub 镜像</a>
   ·
   <a href="https://gitee.com/wang-jining/wjncode/issues">问题反馈</a>
 </p>
@@ -18,7 +20,7 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 **约 7.8 MB 的绿色单文件 exe，不需要安装器，也不捆绑 Electron 运行时，双击即用。**
 
-> **本仓库仅用于产品介绍与安装包发布，不包含源代码。** WjnCode 目前为闭源软件，新版本会发布在 [Releases](https://gitee.com/wang-jining/wjncode/releases)。
+> **本仓库仅用于产品介绍与安装包发布，不包含源代码。** WjnCode 目前为闭源软件，新版本会发布在 Gitee [Releases](https://gitee.com/wang-jining/wjncode/releases)，并同步到 GitHub [Releases](https://github.com/JiNing-Wang/WjnCode/releases)。Gitee 是主发布渠道，GitHub 供无法访问 Gitee 的用户手动下载。
 
 ## 为什么选择 WjnCode
 
@@ -45,12 +47,13 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 ## 下载
 
-> 当前最新版本：**V1.1.9** · [查看发行说明](https://gitee.com/wang-jining/wjncode/releases/tag/v1.1.9)
+> 当前最新版本：**V1.2.0** · [Gitee 发行说明](https://gitee.com/wang-jining/wjncode/releases/tag/v1.2.0) · [GitHub 发行说明](https://github.com/JiNing-Wang/WjnCode/releases/tag/v1.2.0)
 
-| 系统                | 下载                                                                       | 说明                 |
-| ------------------- | -------------------------------------------------------------------------- | -------------------- |
-| Windows 10 / 11 x64 | [前往 Releases 下载最新版](https://gitee.com/wang-jining/wjncode/releases) | 绿色单文件，无需安装 |
+| 系统                | 下载                                                                                                             | 说明                 |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Windows 10 / 11 x64 | [Gitee（主）](https://gitee.com/wang-jining/wjncode/releases) · [GitHub（镜像）](https://github.com/JiNing-Wang/WjnCode/releases) | 绿色单文件，无需安装 |
 
+- 应用内的「检查更新」仍然只查 Gitee；GitHub 目前仅作为手动下载镜像，版本与 Gitee 保持同步。
 - 下载后把 `wjn-code.exe` 放到**有写权限的目录**，例如 `D:\Apps\WjnCode\`。不要放进 `C:\Program Files`，否则后续覆盖更新时需要管理员权限。
 - 首次运行若出现 Windows SmartScreen 提示，点「更多信息」→「仍要运行」。应用暂未购买代码签名证书。
 - 每个版本的 SHA256 会写在对应 Release 的说明里，下载后可自行校验。
@@ -139,7 +142,7 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 ## 快速开始
 
-1. 从 [Releases](https://gitee.com/wang-jining/wjncode/releases) 下载最新的 `wjn-code.exe`。
+1. 从 [Gitee Releases](https://gitee.com/wang-jining/wjncode/releases) 或 [GitHub Releases](https://github.com/JiNing-Wang/WjnCode/releases) 下载最新的 `wjn-code.exe`。
 2. 双击运行。首次打开时，顶部会提示环境尚未就绪。
 3. 进入 **设置 → 运行环境**，按提示安装 Node.js、Claude Code / Codex CLI。本机已经安装过的话会自动识别。
 4. 进入 **设置 → 供应商**，添加 API 地址、API Key 和模型；已有 CC Switch 配置可以直接点「从 CC Switch 导入」。如果 CLI 已登录官方账号，也可以直接使用。
@@ -163,7 +166,7 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 ## 版本与更新
 
-- 每个版本都会在 [Releases](https://gitee.com/wang-jining/wjncode/releases) 中列出更新内容、文件大小和 SHA256。
+- 每个版本都会在 [Gitee Releases](https://gitee.com/wang-jining/wjncode/releases) 和 [GitHub Releases](https://github.com/JiNing-Wang/WjnCode/releases) 中列出更新内容、文件大小和 SHA256。
 - 应用启动后会自动检查新版本（结果缓存三小时），也可以到 **设置 → 关于** 手动检查。下载完成后校验 SHA256，再通过启动器替换当前 exe；任何一步失败都会恢复旧版本。
 - 不想升级某个版本时可以点「跳过此版本」，之后仍可在设置里取消跳过。
 - 也可以手动下载新版本，**完全退出 WjnCode 后**覆盖旧 exe；项目、会话和配置都保存在本机数据目录，不受替换 exe 影响。
@@ -178,7 +181,7 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 应用未签名，属于正常提示。点「更多信息」→「仍要运行」。
 
 **杀毒软件报毒？**
-单文件 exe 偶尔会被误报。请只从本仓库 Releases 下载，并用 Release 说明里的 SHA256 校验；必要时把程序目录加入信任。
+单文件 exe 偶尔会被误报。请只从 Gitee 或 GitHub 的官方 Releases 下载，并用 Release 说明里的 SHA256 校验；必要时把程序目录加入信任。
 
 **之前用 CC Switch，配置能带过来吗？**
 可以。设置 → 供应商 → 从 CC Switch 导入，会把供应商地址、Key 和模型一起导入，并自动选中 CC Switch 当前在用的那家。之后可以直接在 WjnCode 里管理和切换。
