@@ -34,6 +34,8 @@ WjnCode 是一个基于 **Tauri 2 + Rust + React 19** 的 AI 编程桌面应用�
 
 ## 下载
 
+> 当前最新版本：**V1.1.6** · [查看发行说明](https://gitee.com/wang-jining/wjncode/releases/tag/v1.1.6)
+
 | 系统                | 下载                                                    | 说明               |
 | ------------------- | ------------------------------------------------------- | ------------------ |
 | Windows 10 / 11 x64 | [前往 Releases 下载最新版](https://gitee.com/wang-jining/wjncode/releases) | 绿色单文件，无需安装 |
